@@ -1,0 +1,138 @@
+
+
+body {
+    background-color: blueviolet;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 960px;
+    min-width: 640px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+    /* Body Header Styles */
+
+body > header > img {
+    display: block;
+    width: 100%;
+}
+
+section#leftColumn {
+    clear: left;
+    float: left;
+    width: 50%;
+    background-color: black;
+    color: #fff;
+}
+
+section#rightColumn {
+    float: left;
+    width: 50%;
+    background-color: #fff;
+    color: black;
+}
+
+section#leftColumn2 {
+    clear: left;
+    float: left;
+    width: 50%;
+    background-color: black;
+    color: #fff;
+}
+
+section#rightColumn2 {
+    float: left;
+    width: 50%;
+    background-color: #fff;
+    color: black;
+}
+
+section#rightColumn2 img {
+    display: block;
+    width: 300px;
+    height: 250px;
+    
+
+}
+
+section#leftColumn2 img {
+    display: block;
+    width: 300px;
+    height: 250px;
+    
+
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+/* 
+section#rightColumn > nav.horizontalNavigation li {
+    width: 25%;
+}
+*/
+
+nav.horizontalNavigation a:hover {
+	background-color: aqua; 
+	color: #fff;
+    font-weight: bold;
+    font-size: larger;
+	}
+ 
+  body > header > nav.horizontalNavigation li {
+    width: 32%;
+  }
+
+  /* Horizontal Navigation Styles */
+
+  nav.horizontalNavigation li {
+    display: block;
+    float: left;
+    background-color: black;
+  }
+
+  nav.horizontalNavigation a {
+    display: block;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: larger;
+  }
+
+  /* Footer */
+  footer {
+    clear:left;
+    background-color: aqua;
+
+  }
+
+  footer > nav.verticalNavigation {
+    float: left;
+    width: 22%
+  }
+
+  footer > section#contactInfo {
+    float: left;
+    width: 34%;
+  }
+
+  footer::after {
+    clear: both;
+    content: "";
+    display: table;
+
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+   
+   
+   
+ 
